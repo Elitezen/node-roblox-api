@@ -1,0 +1,35 @@
+{
+  "name": "roblox.js",
+  "version": "0.1.0",
+  "description": "An unofficial Node.JS wrapper for the Roblox API",
+  "homepage": "https://github.com/Elitezen/roblox.js#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "scripts": {
+    "test": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elitezen/roblox.js.git"
+  },
+  "keywords": [
+    "roblox",
+    "api",
+    "roblox api",
+    "game api"
+  ],
+  "author": "Elitezen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elitezen/roblox.js/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
